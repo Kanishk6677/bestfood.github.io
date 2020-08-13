@@ -1,0 +1,84 @@
+
+    #services{
+    flex-direction: column;
+overflow: hidden;}
+
+
+.client-item{
+  
+padding: 0px;
+overflow: hidden
+}
+#client{
+    overflow: hidden;
+}
+#clients img {
+    height: 68px;
+    overflow: hidden
+}
+#home{
+    overflow: hidden;
+}
+#navbar{
+    flex-direction: row;
+    margin: -6px -49px;
+    overflow: hidden;
+}
+
+    #navbar ul li a {
+        font-size: 1rem;
+        padding: 0px 6px;
+        margin: 17px 0px;
+        overflow: hidden
+    
+
+}
+#home{
+    height: 427px;
+    padding: 3px 68px;
+    overflow: hidden;
+    position: relative;
+    width: 234px;
+    
+}
+#home::before{
+    height: 480px;
+    overflow: hidden
+}
+#home p{
+    font-size: 12px;
+    overflow: hidden
+}
+
+.h-secondary{
+    font-size: 1.3rem;
+    overflow: hidden
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+    overflow: hidden
+}
+
+    #logo img {
+        height: 88px;
+        width: 50px;
+        border-radius: 23px;
+        margin: 6px 11px;
+        overflow: hidden
+    
+}
+.h-primary {
+    font-size: 38px;
+    padding: 38px;
+    overflow: hidden
+}
+#client-section {
+    height: 344px;
+    width: 372px;
+    overflow: hidden;
+    position: relative;
+}
+#contact{
+    width: 244px ;
+}

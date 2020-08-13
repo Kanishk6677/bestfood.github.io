@@ -1,0 +1,212 @@
+/* CSS RESET */
+*{
+    padding: 0;
+    margin: 0;
+
+}
+:root{
+    --navbar-height:59 px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navigation bar
+ */
+ #navbar{
+     display: flex;
+     align-items: center;
+ }
+ #logo{
+    margin: 10px 34px;
+}
+ #logo img{
+    height: 106px;
+    width: 82px;
+    border-radius: 23px;
+    margin: 8px 11px;
+ }
+ #navbar{
+     position: absolute;
+     top: 0px;
+ }
+ #navbar ul{
+     display: flex;
+    font-family: 'Baloo Bhai', cursive;}
+     #navbar ul li{
+         list-style: none;
+         font-size: 1.3rem;
+     }
+     #navbar ul li a{
+         color: white;
+         display: block;
+         padding: 23px 33px;
+         border-radius: 34px;
+         text-decoration: none;
+     }
+     #navbar::before{
+         content: "";
+         background-color: black;
+         position: absolute;
+         height: 100%;
+         width: 100%;
+         z-index: -1;
+         opacity: .4;
+     }
+     #navbar ul li a:hover{
+         color: black;
+         background-color: white;
+     }
+     /* Home SEction */
+     #home{
+         display: flex;
+         flex-direction: column;
+         padding: 0px 262px;
+         justify-content: center;
+         align-items: center;
+        height: 645px;}
+        #home::before{
+            content: "";
+            background: url('https://images.pexels.com/photos/326279/pexels-photo-326279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center/cover;
+            position: absolute;
+            height: 642px;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+         #home h1{
+             color: white;
+             text-align: center;
+             font-family: cursive
+         }
+         #home p{
+             color: white;
+             text-align: center;
+             font-size: 1.3rem;
+            font-family: cursive;
+             
+         }
+        
+         .btn{
+             padding: 6px 20px;
+             border: 2px solid white;
+             background-color: brown;
+             
+             /* margin: 17px; */
+             font-size: 1.5em;
+             border-radius: 10px;
+             
+             text-decoration: none;
+             color: white;
+
+         }
+         .btn:hover{
+             color: yellow;
+         }
+
+         .h-secondary {
+             font-size: 2.2rem;
+             padding: 12px;
+             align-content: center;
+             text-align: center;
+             font-family: cursive;
+             
+         }
+         a:-webkit-any-link {
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+        }
+         .h-primary {
+            font-size: 3.2rem;
+            padding: 6px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: cursive;
+        }
+         #services{
+             margin: 34px;
+             display: flex;
+         }
+         #services .box{
+border: 2px solid brown;
+padding: 34px;
+margin: 3px 6px;
+border-radius: 28px;
+background-color: #ece4e4; 
+cursor: pointer;
+
+         }
+         #services .box img{
+            height: 142px;
+    width: 169px;
+    padding: 17px 13px;
+    margin: auto;
+    display: block;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client-section{
+    height: 344px;
+
+}
+#clients img{
+height: 124px;
+}
+.client-item{
+    padding: 34px;
+    cursor: pointer;
+}
+#client-section::before{
+   
+    content: "";
+         background-image: url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+         position: absolute;
+         height: 348px;
+         width: 100%;
+         z-index: -1;
+         opacity: .4;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 0px 20px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: cursive;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+         height: 100%;
+         width: 100%;
+         z-index: -1;
+         opacity: .4;
+         background-image: url('https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+
+}
+.center{
+    font-family: cursive;
+}
